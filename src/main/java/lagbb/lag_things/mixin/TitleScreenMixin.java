@@ -1,6 +1,6 @@
-package lagbb.lagthings.mixin;
+package lagbb.lag_things.mixin;
 
-import lagbb.lagthings.ExampleMod;
+import lagbb.lag_things.common.init.LagThings;
 import net.minecraft.client.gui.screen.TitleScreen;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
@@ -11,6 +11,6 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 public class TitleScreenMixin {
 	@Inject(method = "init", at = @At("TAIL"))
 	public void onInit(CallbackInfo ci) {
-		ExampleMod.LOGGER.info("This line is printed by an example mod mixin!");
+		LagThings.LOGGER.info("This line is printed by an example mod mixin!");
 	}
 }

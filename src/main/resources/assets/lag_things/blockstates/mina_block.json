@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "lag_things:block/mina_block"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "variants": {
+    "facing=down": {
+      "model": "lag_things:block/strip_mining_mina_block",
+      "x": 180
+    },
+    "facing=up": {
+      "model": "lag_things:block/strip_mining_mina_block"
+    },
+    "facing=north": {
+      "model": "lag_things:block/strip_mining_mina_block",
+      "x": 90
+    },
+    "facing=south": {
+      "model": "lag_things:block/strip_mining_mina_block",
+      "x": 90,
+      "y": 180
+    },
+    "facing=west": {
+      "model": "lag_things:block/strip_mining_mina_block",
+      "x": 90,
+      "y": 270
+    },
+    "facing=east": {
+      "model": "lag_things:block/strip_mining_mina_block",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

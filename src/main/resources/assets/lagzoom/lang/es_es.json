@@ -1,0 +1,7 @@
+{
+  "key.lagzoom.zoom": "Zoom",
+  "key.lagzoom.category": "Lag-Zoom",
+  "lagzoom.lagzoomcommand.setzoom": "Nivel de zoom establecido en: %s%%",
+  "lagzoom.lagzoomcommand.setCinematicCamera": "Cámara cinematografica en zoom: %s",
+  "lagzoom.lagzoomcommand.setZoomLevelAccordingToScroll": "Nivel de zoom según Scroll del Mouse: %s"
+}

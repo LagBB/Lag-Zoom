@@ -2,11 +2,11 @@
 	"schema_version": 1,
 	"quilt_loader": {
 		"group": "${group}",
-		"id": "lag_things",
+		"id": "lagzoom",
 		"version": "${version}",
 		"metadata": {
-			"name": "Lag Things",
-			"description": "A mod about Lag Things.",
+			"name": "Lag Zoom",
+			"description": "A mod that adds a Simple but customizable and Beautiful Zoom",
 			"contributors": {
 				"LagBB": "Owner"
 			},
@@ -15,11 +15,11 @@
 				"issues": "https://github.com/QuiltMC/quilt-template-mod/issues",
 				"sources": "https://github.com/QuiltMC/quilt-template-mod"
 			},
-			"icon": "assets/lag_things/icon.png"
+			"icon": "assets/lagzoom/icon.png"
 		},
 		"intermediate_mappings": "net.fabricmc:intermediary",
 		"entrypoints": {
-			"init": "lagbb.lag_things.common.init.LagThings"
+			"client_init": "lagbb.lagzoom.common.init.LagZoomClient"
 		},
 		"depends": [
 			{
@@ -36,5 +36,5 @@
 			}
 		]
 	},
-	"mixin": "lag_things.mixins.json"
+	"mixin": "lagzoom.mixins.json"
 }

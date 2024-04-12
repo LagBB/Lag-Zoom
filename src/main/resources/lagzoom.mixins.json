@@ -1,11 +1,12 @@
 {
 	"required": true,
 	"minVersion": "0.8",
-	"package": "lagbb.lag_things.mixin",
+	"package": "lagbb.lagzoom.mixin",
 	"compatibilityLevel": "JAVA_17",
 	"mixins": [],
 	"client": [
-      "TitleScreenMixin"
+    "GameRendererMixin",
+    "OnMouseScrollMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

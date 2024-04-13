@@ -4,7 +4,7 @@ Empece a ver a DoctorR4t mucho (creo que se nota en el video en correlación a e
 No soy un experto en crear Mods, mucho menos en Quilt, un Loader en Beta. El proposito de este repositorio es tratar de enseñar la manera en la que llegué a crear este mod y a lo mejor ayudarte a comprender más rapido los primeros pasos. 
 ***Si alguien con más conocimiento gusta contribuir al mod, bienvenido sea :D***
 
-Es un tutorial bastante desde 0 para setear tus cosas para iniciar a crear tu primer MOD :D.
+Es un tutorial muy desde 0 para setear todas tus cosas para iniciar a crear tu primer MOD :D.
 
 # Empezando
 Hacer Mods para Minecraft puede ponerse complicado, con este repositorio espero ayudar a quien lo necesite y hacerle su inicio un poco más ligero, más tomando en cuenta que muy poca documentación de lo que tenga que ver con programación esta en español. 

@@ -74,7 +74,7 @@ public class LagZoomClient implements ClientModInitializer {
 	}
 ```
 
-Y dicho valor es comprobado en `GameRendererMixin` con un IF, esto hace que nos devuelva el valor de la tecla cada que el juego renderiza algo.
+Y dicho valor es comprobado en [GameRendererMixin](https://github.com/LagBB/Lag-Zoom/blob/master/src/main/java/lagbb/lagzoom/mixin/GameRendererMixin.java) con un IF, esto hace que nos devuelva el valor de la tecla cada que el juego renderiza algo.
 ```java
 if(LagZoomClient.isZooming()) {
 }

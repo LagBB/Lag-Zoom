@@ -35,8 +35,8 @@ Puedes aumentar y disminuir hasta 4 niveles de Zoom con el scroll del mouse.
 - Este comando es para activar o desactivar la cámara cinematografica de Minecraft. (true, false)
 
 `/lagzoom setZoom 10`
-- Es el porcentaje a usar en el Zoom. (min:10 - max:80)
-*Nota: Es un porcentaje de tu FOV actual*
+- Es el porcentaje a usar en el Zoom. (min:10 - max:80)<br/>
+*Nota: Es un porcentaje de tu FOV actual*<br/>
 *Ejempo: setZoom = 10 sería TU_FOV(100) * 0.10 dando un total de 10 de FOV. Es decir, al hacer Zoom será como que tuvieras 10 de FOV, que eso es el Zoom basicamente, aumentar tu FOV.*
 
 `/lagzoom setZoomLevelAccordingToScroll true`

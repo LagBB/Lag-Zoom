@@ -1,6 +1,4 @@
 # INTRODUCCIÓN
-Empece a ver mucho a DoctorR4t (creo que se nota en el video en correlación a este mod) y me motivó a meterme más en serio al Modding Minecraft. Tengo un camino largo que recorrer para aprender y poder plasmar todas mis ideas en el juego de una manera eficiente a nivel de código y bonita a nivel de estética.
-
 No soy un experto en crear Mods, mucho menos en Quilt, un Loader en Beta. El propósito de este repositorio es tratar de enseñar la manera en la que llegué a crear este mod y a lo mejor ayudarte a comprender más rápido los primeros pasos.
 ***Si alguien con más conocimiento gusta contribuir al mod, bienvenido sea :D***
 

@@ -28,7 +28,7 @@ Se descarga así:
 <br/>
 <br/>
 Y extrae ese .zip en la carpeta que gustes.
-*podrías clonar el repositorio oficial de la plantilla, pero esta forma es más "amigable" para quienes no tengan mucho conocimiento. <br/>
+Podrías clonar el repositorio oficial de la plantilla, pero esta forma es más "amigable" para quienes no tengan mucho conocimiento. <br/>
 
 Les dejo este pequeño video para adentrarse más con [GIT - HolaMundo](https://youtu.be/VdGzPZ31ts8)*
 

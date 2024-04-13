@@ -15,7 +15,7 @@ Otro requisito para adentrarte en el mundo del Modding es el inglés, pues todos
 Aprende algo de ingles: [Ingles básico - INGLÉS CON EL TEACHER BOCARANDO](https://youtu.be/GWS3PCBFVgI)
 
 # Establecer tu entorno de Desarrollo
-Primero necesitarás tener un JDK para Java 17 o posterior. Yo recomiendo descargar el de Temurin Adoptiu JDK, ya que son de fácil acceso [Temurin Adoptium JDKs](https://adoptium.net/temurin/releases/)
+Primero necesitarás tener un JDK para Java 17 o posterior. Yo recomiendo descargar el de Temurin Adoptium JDK, ya que son de fácil acceso [Temurin Adoptium JDKs](https://adoptium.net/temurin/releases/)
 
 Necesitarás también un IDE, [IntelliJ](https://www.jetbrains.com/idea/) es el que uso yo, es el más fácil de usar. 
 [Eclipse](https://www.eclipse.org/topics/ide/) y [VSCode](https://code.visualstudio.com/) también funcionan, elige el que más se te haga cómodo.

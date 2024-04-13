@@ -58,7 +58,7 @@ Primero configuraremos el archivo `gradle.properties`, ajusta los datos según l
 <br/>
 ![](https://github.com/LagBB/Lag-Zoom/blob/master/docs/imagenestutorial/gradleproperties.png)
 <br/>
-*Nota: ya que Maven utiliza **-** para separar las palabras, si tu MOD ID consiste en palabras separadas, aquí debería ir con un **-** en vez de **"_"***.
+*Nota: ya que Maven utiliza **"-"** para separar las palabras, si tu MOD ID consiste en palabras separadas, aquí debería ir con un **-** en vez de **"_"***.
 
 Ahora actualiza tú [quilt.mod.json](src/main/resources/quilt.mod.json) en `src/main/resources`. Aquí se definen cosas generales como el nombre de tu mod, el autor, la descripción, sitio web... pero también cosas enfocadas al desarrollo como las dependencias, la versión, el MOD ID y los MOD INITIALIZERS.
 

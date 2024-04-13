@@ -1,4 +1,4 @@
-(src/main/resources/assets/lagzoom/Mod-Title.png)
+[](src/main/resources/assets/lagzoom/Mod-Title.png)
 
 Un mod que añade un simple, configurable y hermoso Zoom.
 

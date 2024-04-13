@@ -18,8 +18,8 @@ en la Wiki de Quilt, seguro que mezcle unas cosas y no utilice otras que Quilt p
 ## Como Instalarlo
 Una vez hayas instalado la versión correcta del Quilt Loader, pon la ultima versión de LagZoom con sus dependencias en .minecraft/mods folder.
 ## Dependencias
-Quilt Loader: [Quilt.org](https://quiltmc.org/en/install/client/)
-Quilted Fabric API (QFAPI) and Quilt Standard Librarires (QSL): [Modrinth](https://modrinth.com/mod/qsl)
+Quilt Loader: [Quilt.org](https://quiltmc.org/en/install/client/)<br/>
+Quilted Fabric API (QFAPI) and Quilt Standard Librarires (QSL): [Modrinth](https://modrinth.com/mod/qsl)<br/>
 Quilted Fabric API (QFAPI) and Quilt Standard Librarires (QSL): [CurseForge](https://www.curseforge.com/minecraft/mc-mods/qsl)
 
 ## Como usar el Mod

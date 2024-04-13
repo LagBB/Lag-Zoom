@@ -26,14 +26,17 @@ public class LagZoomClient implements ClientModInitializer {
 	public static boolean cinematicCameraEnabled;
 	public static boolean zoomLevelAccordingToScrollEnabled;
 
-	public static double zoomLevel = 10;
-	public static double zoomLevelDefault;
+	public static int zoomLevel;
+	public static int zoomLevelDefault;
 
+	public static boolean isZooming(){
+		return ZOOM_KEY.isPressed();
+	}
 	@Override
 	public void onInitializeClient(ModContainer mod) {
 		LOGGER.info("Hola, espero aprendas con este 'tutorial' :D", mod.metadata().name());
 
-		// Carga los ajustes desde el settings.json
+		// Se encarga de cargar las settings del usuario.
 		SettingsManager.loadSettings();
 
 		// Establece zoomLevel igual a zoomLevelDefault después de cargar los ajustes
@@ -49,11 +52,5 @@ public class LagZoomClient implements ClientModInitializer {
 				LagZoomCommands.register(dispatcher);
 			}
 		});
-
 	}
-
-	public static boolean isZooming(){
-		return ZOOM_KEY.isPressed();
-	}
-
 }

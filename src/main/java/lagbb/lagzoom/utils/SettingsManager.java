@@ -55,11 +55,11 @@ public class SettingsManager {
 
 
 	private static class Settings {
-		double zoomLevelDefault;
+		int zoomLevelDefault;
 		boolean cinematicCameraEnabled;
 		boolean zoomLevelAccordingToScrollEnabled;
 
-		Settings(double zoomLevelDefault, boolean cinematicCameraEnabled, boolean zoomLevelAccordingToScrollEnabled) {
+		Settings(int zoomLevelDefault, boolean cinematicCameraEnabled, boolean zoomLevelAccordingToScrollEnabled) {
 			this.zoomLevelDefault = zoomLevelDefault;
 			this.cinematicCameraEnabled = cinematicCameraEnabled;
 			this.zoomLevelAccordingToScrollEnabled = zoomLevelAccordingToScrollEnabled;

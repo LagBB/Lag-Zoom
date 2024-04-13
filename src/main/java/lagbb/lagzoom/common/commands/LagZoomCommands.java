@@ -3,6 +3,7 @@ package lagbb.lagzoom.common.commands;
 import com.mojang.brigadier.CommandDispatcher;
 import com.mojang.brigadier.arguments.BoolArgumentType;
 import com.mojang.brigadier.arguments.DoubleArgumentType;
+import com.mojang.brigadier.arguments.IntegerArgumentType;
 import lagbb.lagzoom.common.client.LagZoomClient;
 import lagbb.lagzoom.utils.SettingsManager;
 import net.minecraft.server.command.CommandManager;
@@ -14,9 +15,9 @@ public class LagZoomCommands {
 	public static void register(CommandDispatcher<ServerCommandSource> dispatcher) {
 		dispatcher.register(CommandManager.literal("lagzoom")
 			.then(CommandManager.literal("setZoom")
-				.then(CommandManager.argument("zoomAmount", DoubleArgumentType.doubleArg(10.0, 80.0))
+				.then(CommandManager.argument("zoomAmount", IntegerArgumentType.integer(10, 80))
 					.executes(context -> {
-						double zoom = DoubleArgumentType.getDouble(context, "zoomAmount");
+						int zoom = IntegerArgumentType.getInteger(context, "zoomAmount");
 						LagZoomClient.zoomLevelDefault = zoom;
 						context.getSource().sendFeedback( () ->
 							Text.translatable("lagzoom.lagzoomcommand.setzoom", zoom), false);

@@ -23,7 +23,7 @@ Necesitarás también un IDE, [IntelliJ](https://www.jetbrains.com/idea/) es el 
 ## Descargar Plantilla de Mod
 Ahora toca descargar la plantilla [Mod-Plantilla.zip](https://github.com/QuiltMC/quilt-template-mod)
 Se descarga así:
-![](Lag-Zoom/docs/imagenes_tutorial/descargar_zip.png)
+![](docs/imagenes_tutorial/descargar_zip.png)
 
 Y extrae ese .zip en la carpeta que gustes.
 *podrías clonar el repositorio oficial de la plantilla, pero esta forma es más "amigable" para quienes no tengan mucho conocimiento. Les dejo este pequeño video para adentrarse más con [GIT - HolaMundo](https://youtu.be/VdGzPZ31ts8)*

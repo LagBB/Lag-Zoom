@@ -42,11 +42,11 @@ Esto es lo que verás a grandes rasgos una vez abras tu proyecto, lo más import
 ![](https://github.com/LagBB/Lag-Zoom/blob/master/docs/imagenestutorial/ideagrandesrasgos.png)
 <br/>
 ## Configurando tu mod
-Primero debes ponerle un nombre a tu mod, el nuestro es **LagZoom** y basado en el nombre será tu **MOD ID**. El mod id debe estar compuesto por minúsculas y cualquier carácter especial o espacio debe ser reemplazado con un **_**. Además no debe existir otro mod con ese mod id, así que haz que sea único
+Primero debes ponerle un nombre a tu mod, el nuestro es **LagZoom** y basado en el nombre será tu **MOD ID**. El mod id debe estar compuesto por minúsculas y cualquier carácter especial o espacio debe ser reemplazado con un **"_" (guión bajo)**. Además no debe existir otro mod con ese mod id, así que haz que sea único
 ***Ejemplo: Nombre: LagZoom Mod, MOD ID = lagzoom_mod***
 
 También debes elegir un **MAVEN GROUP** que sirve para identificar el desarrollador de un mod. Suele ser el nombre de un dominio que poseas, pero al revés, por ejemplo si eres dueño de **"lagzoom.tutorial.com"** tu maven group será **"com.tutorial.lagzoom"**
-Si no tienes un dominio, pero si una cuenta de GitHub, puedes usar **"io.github.tu_username_de_github"**, si tiene caracteres especiales también debes reemplazarlos con **_**
+Si no tienes un dominio, pero si una cuenta de GitHub, puedes usar **"io.github.tu_username_de_github"**, si tiene caracteres especiales también debes reemplazarlos con **"_"**
 
 ### Configurando la metadata
 
@@ -56,7 +56,7 @@ Primero configuraremos el archivo `gradle.properties`, ajusta los datos según l
 <br/>
 ![](https://github.com/LagBB/Lag-Zoom/blob/master/docs/imagenestutorial/gradleproperties.png)
 <br/>
-*Nota: ya que Maven utiliza **-** para separar las palabras, si tu MOD ID consiste en palabras separadas, aquí debería ir con un **-** en vez de **_***.
+*Nota: ya que Maven utiliza **-** para separar las palabras, si tu MOD ID consiste en palabras separadas, aquí debería ir con un **-** en vez de **"_"***.
 
 Ahora actualiza tú [quilt.mod.json](src/main/resources/quilt.mod.json) en `src/main/resources`. Aquí se definen cosas generales como el nombre de tu mod, el autor, la descripción, sitio web... pero también cosas enfocadas al desarrollo como las dependencias, la versión, el MOD ID y los MOD INITIALIZERS.
 

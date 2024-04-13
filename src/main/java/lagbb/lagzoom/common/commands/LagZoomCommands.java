@@ -3,7 +3,7 @@ package lagbb.lagzoom.common.commands;
 import com.mojang.brigadier.CommandDispatcher;
 import com.mojang.brigadier.arguments.BoolArgumentType;
 import com.mojang.brigadier.arguments.DoubleArgumentType;
-import lagbb.lagzoom.common.init.LagZoomClient;
+import lagbb.lagzoom.common.client.LagZoomClient;
 import lagbb.lagzoom.utils.SettingsManager;
 import net.minecraft.server.command.CommandManager;
 import net.minecraft.server.command.ServerCommandSource;

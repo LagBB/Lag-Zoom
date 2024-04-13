@@ -1,4 +1,4 @@
-package lagbb.lagzoom.common.init;
+package lagbb.lagzoom.common.client;
 
 import com.mojang.brigadier.CommandDispatcher;
 import lagbb.lagzoom.common.commands.LagZoomCommands;

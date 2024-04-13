@@ -1,6 +1,6 @@
 package lagbb.lagzoom.mixin;
 
-import lagbb.lagzoom.common.init.LagZoomClient;
+import lagbb.lagzoom.common.client.LagZoomClient;
 import net.minecraft.client.MinecraftClient;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;

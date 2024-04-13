@@ -2,7 +2,7 @@ package lagbb.lagzoom.utils;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
-import lagbb.lagzoom.common.init.LagZoomClient;
+import lagbb.lagzoom.common.client.LagZoomClient;
 
 import java.io.FileReader;
 import java.io.FileWriter;

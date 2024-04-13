@@ -64,7 +64,7 @@ Los comandos y keybinds estan en `src/main/java/lagbb/lagzoom/common/commands` y
 # Tecla Custom
 Las teclas custom son bastante facil, [la documentacion de Fabric](https://fabricmc.net/wiki/tutorial:keybinds) cubre bien este tema.
 
-Sin embargo, mencionar que no utilice `ClientTickEvents` como es presentado en la documentación, esto es algo que le "preste" a LogicalZoom también. <br/>
+Sin embargo, mencionar que no utilice `ClientTickEvents` como es presentado en la documentación, esto es algo que le "preste" a LogicalGeekBoy también. <br/>
 Que lo que hace es regresar el valor booleano del metodo `isPressed()` de las teclas. True significa que nuestra tecla esta siendo presionada y False que no.
 ```java
 public class LagZoomClient implements ClientModInitializer {

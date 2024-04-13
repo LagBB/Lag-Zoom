@@ -33,6 +33,7 @@ public class LagZoomClient implements ClientModInitializer {
 	public void onInitializeClient(ModContainer mod) {
 		LOGGER.info("Hola, espero aprendas con este 'tutorial' :D", mod.metadata().name());
 
+		// Carga los ajustes desde el settings.json
 		SettingsManager.loadSettings();
 
 		// Establece zoomLevel igual a zoomLevelDefault después de cargar los ajustes

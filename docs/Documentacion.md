@@ -29,13 +29,13 @@ Y extrae ese .zip en la carpeta que gustes.
 *podrías clonar el repositorio oficial de la plantilla, pero esta forma es más "amigable" para quienes no tengan mucho conocimiento. Les dejo este pequeño video para adentrarse más con [GIT - HolaMundo](https://youtu.be/VdGzPZ31ts8)*
 
 ## Creando el Proyecto en IntelliJ
-![](docs/imagenes_tutorial/crear_proyecto_intellij.png)
+![](https://github.com/LagBB/Lag-Zoom/blob/master/docs/imagenestutorial/crearproyectointellij.png)
 *si te aparece una ventana preguntando si confías en la carpeta, presiona que si confías*
 
 Hay un plugin que añade soporte adicional a la hora de hacer Mods para Minecraft, puedes descargarla aquí: [Plugin](https://plugins.jetbrains.com/plugin/8327-minecraft-development)
 
 Esto es lo que verás a grandes rasgos una vez abras tu proyecto, lo más importante y que veremos más adelante es el botón de Gradle (el elefantito)
-![](docs/imagenes_tutorial/idea_grandes_rasgos.png)
+![](https://github.com/LagBB/Lag-Zoom/blob/master/docs/imagenestutorial/ideagrandesrasgos.png)
 
 ## Configurando tu mod
 Primero debes ponerle un nombre a tu mod, el nuestro es **LagZoom** y basado en el nombre será tu **MOD ID**. El mod id debe estar compuesto por minúsculas y cualquier carácter especial o espacio debe ser reemplazado con un **_**. Además no debe existir otro mod con ese mod id, así que haz que sea único
@@ -49,7 +49,7 @@ Si no tienes un dominio, pero si una cuenta de GitHub, puedes usar **"io.github.
 Si no estás familiarizado con archivos JSON puedes aprender algo [aquí](https://developer.mozilla.org/es/docs/Learn/JavaScript/Objects/JSON)
 
 Primero configuraremos el archivo `gradle.properties`, ajusta los datos según lo que elegiste, en la siguiente imagen están los míos de ejemplo:
-![](docs/imagenes_tutorial/gradle_properties.png)
+![](https://github.com/LagBB/Lag-Zoom/blob/master/docs/imagenestutorial/gradleproperties.png)
 *Nota: ya que Maven utiliza **-** para separar las palabras, si tu MOD ID consiste en palabras separadas, aquí debería ir con un **-** en vez de **_***.
 
 Ahora actualiza tú [quilt.mod.json](src/main/resources/quilt.mod.json) en `src/main/resources`. Aquí se definen cosas generales como el nombre de tu mod, el autor, la descripción, sitio web... pero también cosas enfocadas al desarrollo como las dependencias, la versión, el MOD ID y los MOD INITIALIZERS.
@@ -68,7 +68,7 @@ Hay varias cosas que actualizar aquí *(ver ejemplo completo al final)*:
 - `"mixin"` Aqui actualiza el **"example_mod"** a tu MOD ID, no olvides actualizar el archivo example_mod.mixins.json en la raiz de tu proyecto.
 
 Debería quedarte así, sin rastros de "example":
-![](docs/imagenes_tutorial/quilt_mod_json.png)
+![](https://github.com/LagBB/Lag-Zoom/blob/master/docs/imagenestutorial/quiltmodjson.png)
 
 
 Elige una licencia para tu mod, si no sabes de licencias puedes leer esto: [Licencias](https://choosealicense.com/)
@@ -82,7 +82,7 @@ Tu código estará en `src/main/java/` con `src/main/java/com.tu_usuario.tu_mod`
 
 ## Generar Código fuente de Minecraft
 Para esto vamos al gradle (el elefantito a la derecha), desplegamos la carpeta "Tasks" y la carpeta "fabric" y luego ejecutamos con dobleclick "genSourcesWithVineflower"
-![](docs/imagenes_tutorial/gradle_vineflower.png)
+![](https://github.com/LagBB/Lag-Zoom/blob/master/docs/imagenestutorial/gradlevineflower.png)
 
 y finalmente recargamos el gradle
-![](docs/imagenes_tutorial/gradle_recarga.png)
+![](https://github.com/LagBB/Lag-Zoom/blob/master/docs/imagenestutorial/gradlerecarga.png)

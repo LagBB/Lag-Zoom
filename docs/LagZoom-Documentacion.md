@@ -1,4 +1,6 @@
-# LagZoom
+# LagZoom - Introducción
+Empece a ver mucho a DoctorR4t (creo que se nota en el video en correlación a este mod) y me motivó a meterme más en serio al Modding Minecraft. Tengo un camino largo que recorrer para aprender y poder plasmar todas mis ideas en el juego de una manera eficiente a nivel de código y bonita a nivel de estética.
+
 # Estructura
 Pueden elegir cualquier estructura que cumpla con alguna regla tipica de orden (io.github.lagbb), yo después de leer varios mods con el código publico llegué a esta estructura que se me hace la más comoda:<br/> `nombre_mod/common/mixin/utils` donde `common` contiene todo lo "normal", por decirlo así, respecto al código de Minecraft. Es decir, en nuestro caso, los comandos, el archivo principal y las keybinds(teclas) que creamos para el mod.
 

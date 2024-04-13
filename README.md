@@ -1,4 +1,4 @@
-[](src/main/resources/assets/lagzoom/Mod-Title.png)
+![](src/main/resources/assets/lagzoom/Mod-Title.png)
 
 Un mod que añade un simple, configurable y hermoso Zoom.
 
@@ -43,10 +43,10 @@ Puedes aumentar y disminuir hasta 4 niveles de Zoom con el scroll del mouse.
 - Este comando es para activar o desactivar que tu Zoom por defecto sea el valor que dejaste con el Scroll. (true, false)
 
 # Créditos
-@NicoIsLost & [Zoom-o-Matic](https://github.com/NicoIsLost/Zoom-o-Matic) - Quien me inspiró hace mucho a aprender a hacer mi propio zoom (aunque lo dejé xd)
+@NicoIsLost - [Zoom-o-Matic](https://github.com/NicoIsLost/Zoom-o-Matic) - Quien me inspiró hace mucho a aprender a hacer mi propio zoom (aunque lo dejé xd)
 actualmente aprendí a hacer los comandos con su repo y también inspiró el hacer este mod para también enseñar a otras personas, pero totalmente en español.
 
-@LogicalGeekBoy & [LogicalZoom](https://github.com/LogicalGeekBoy/logical_zoom) - De quien tome código (Al que titule GameRendererMixin) para saber como modificar el FOV,
+@LogicalGeekBoy - [LogicalZoom](https://github.com/LogicalGeekBoy/logical_zoom) - De quien tome código (Al que titule GameRendererMixin) para saber como modificar el FOV,
 mencionar que su mod es bastante simple y muy "facil de aprender" así que los insto a leerlo.
 
 @DoctorR4t - Gracias a sus videos me tome enserio y retome el aprender a hacer mods. Es por él que usé Quilt y no Fabric.

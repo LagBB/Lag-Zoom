@@ -33,7 +33,7 @@ Y extrae ese .zip en la carpeta que gustes.
 ## Creando el Proyecto en IntelliJ
 ![](https://github.com/LagBB/Lag-Zoom/blob/master/docs/imagenestutorial/crearproyectointellij.png)
 *si te aparece una ventana preguntando si confías en la carpeta, presiona que si confías*
-<br/>
+
 Hay un plugin que añade soporte adicional a la hora de hacer Mods para Minecraft, puedes descargarla aquí: [Plugin](https://plugins.jetbrains.com/plugin/8327-minecraft-development)
 
 Esto es lo que verás a grandes rasgos una vez abras tu proyecto, lo más importante y que veremos más adelante es el botón de Gradle (el elefantito)

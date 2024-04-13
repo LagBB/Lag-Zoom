@@ -11,7 +11,9 @@ Puede que haya mejores formas, pero a la fecha no las sé (xd) y esto funciona c
 **LagZoomClient.java**
 Es nuestra clase principal, acá se cargará todo el código que hagamos. <br/>
 Como tal podríamos poner TODO nuestro código en este mismo archivo, pero es buena practica el ir separando nuestro código e ir llamandolo acá. Esto para tener un buen orden de código, hacerlo más entendible y poder modificarlo de manera más facil. 
-`	@Override
+
+```java
+	@Override
 	public void onInitializeClient(ModContainer mod) {
 		LOGGER.info("Hola, espero aprendas con este 'tutorial' :D", mod.metadata().name());
 
@@ -31,7 +33,7 @@ Como tal podríamos poner TODO nuestro código en este mismo archivo, pero es bu
 				LagZoomCommands.register(dispatcher);
 			}
 		});
-	}`
+	}```
 
 Comentar que acá utilizamos el `ClientModInitializer` porque este mod es del lado del cliente y `ModContainer mod` es un parametro que contiene la metadad de tu mod, data escrita en **quilt.mod.json**.
 

@@ -12,7 +12,7 @@ Hacer Mods para Minecraft puede ponerse complicado, con este repositorio espero 
 Lo primero y más importante, a pesar de que dije que es chido improvisar y los insto a hacerlo, si no tienen un mínimo conocimiento de programación solo se complicarán la vida y se frustrarán. Les recomiendo seguir un pequeño tutorial de Java, te dejo dos opciones:<br/>
 [Tutorial Java](https://www.guru99.com/es/java-tutorial.html) o [Java desde cero - MoureDev by Brais Moure](https://www.youtube.com/watch?v=W86KTBSiX2o)
 
-Otro requisito para adentrarte en el mundo del Modding es el inglés, pues todos los lenguajes y documentación respecto a programación suelen estar en ingles. Esto es importante porque, aunque la documentación de la Wiki de Quilt o Fabric suele ser buena opción para iniciar, casi siempre necesitarás indagar más por aquí y por allá para poder plasmar tus ideas, todo depende de cuanto esfuerzo le pongas al buscar, la información está ahí fuera.
+Otro requisito para adentrarte en el mundo del Modding es el inglés, pues todos los lenguajes y documentación de programación suelen estar en ingles. Esto es importante porque, aunque la documentación de la Wiki de Quilt o Fabric suele ser buena opción para iniciar, casi siempre necesitarás indagar más por aquí y por allá para poder plasmar tus ideas, todo depende de cuanto esfuerzo le pongas al buscar, la información está ahí fuera.
 Aprende algo de ingles: [Ingles básico - INGLÉS CON EL TEACHER BOCARANDO](https://youtu.be/GWS3PCBFVgI) 
 
 # Establecer tu entorno de Desarrollo

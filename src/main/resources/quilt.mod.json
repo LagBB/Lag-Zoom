@@ -19,7 +19,7 @@
 		},
 		"intermediate_mappings": "net.fabricmc:intermediary",
 		"entrypoints": {
-			"client_init": "lagbb.lagzoom.common.init.LagZoomClient"
+			"client_init": "lagbb.lagzoom.common.client.LagZoomClient"
 		},
 		"depends": [
 			{

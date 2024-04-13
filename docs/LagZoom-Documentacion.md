@@ -54,7 +54,7 @@ Aqui tenemos varias cosas, el `LOGGER` nos permite escribir mensajes en la termi
 Llamamos también al metodo `loadsettings()` de `SettingsManager` que es el encargado de cargar los valores según lo que el usuario vaya eligiendo con los comandos. <br/>
 luego hacemos que `zoomLevel` sea igual al `zoomLevelDefault` que es el campo guardado en settings.json grabado por el metodo `savesettings()` de `SettingsManager`.
 
-`KeyBindingHelper.registerKeyBinding(ZOOM_KEY);` es el encargado de registrar nuestra tecla (creada en otro archivo), este helper de fabric lo que hace es registrar al completo tu tecla, es decir, ponerla en el menu de "Opciones > controles > teclas..." <br/>
+`KeyBindingHelper.registerKeyBinding(ZOOM_KEY);` es el encargado de registrar nuestra [tecla](https://github.com/LagBB/Lag-Zoom/blob/master/src/main/java/lagbb/lagzoom/common/keybinds/LagZoomKeyBinds.java), este helper de fabric lo que hace es registrar al completo tu tecla, es decir, ponerla en el menu de "Opciones > controles > teclas..." <br/>
 
 Y por ultimo estamos registrando nuestros comandos,
 utilizando una clase anónima que implementa `CommandRegistrationCallback` y sobrescribe el método `registerCommands`. <br/>

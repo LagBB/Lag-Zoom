@@ -6,6 +6,8 @@ No soy un experto en crear Mods, mucho menos en Quilt, un Loader en Beta. El pro
 
 Es un tutorial muy desde 0 para setear todas tus cosas para empezar a crear tu primer MOD :D.
 
+Aca la documentacion del Mod: [LagZoom-Documentacion](https://github.com/LagBB/Lag-Zoom/blob/master/docs/LagZoom-Documentacion.md)
+
 # Empezando
 Hacer Mods para Minecraft puede ponerse complicado, con este repositorio espero ayudar a quien lo necesite y hacerle su inicio un poco más ligero, más tomando en cuenta que muy poca documentación de lo que tenga que ver con programación está en español.
 

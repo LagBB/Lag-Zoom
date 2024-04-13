@@ -12,7 +12,7 @@ Hacer Mods para Minecraft puede ponerse complicado, con este repositorio espero 
 Lo primero y más importante, a pesar de que dije que es chido improvisar y los insto a hacerlo, si no tienen un mínimo conocimiento de programación solo se complicarán la vida y se frustrarán. Les recomiendo seguir un pequeño tutorial de Java, te dejo dos opciones: [Tutorial Java](https://www.google.com/search?q=java+tutorial+espa%C3%B1ol&rlz=1C1ONGR_esGT1026GT1026&oq=Java+tutorial+espa%C3%B1o&gs_lcrp=EgZjaHJvbWUqBwgAEAAYgAQyBwgAEAAYgAQyBggBEEUYOTIICAIQABgWGB4yCAgDEAAYFhgeMgwIBBAAGAoYDxgWGB4yCAgFEAAYFhgeMggIBhAAGBYYHjIICAcQABgWGB4yCggIEAAYDxgWGB6oAgCwAgE&sourceid=chrome&ie=UTF-8) o [Java desde cero - MoureDev by Brais Moure](https://www.youtube.com/watch?v=W86KTBSiX2o)
 
 Otro requisito para adentrarte en el mundo del Modding es el inglés, pues todos los lenguajes y documentación respecto a programación suelen estar en ingles. Esto es importante porque, aunque la documentación de la Wiki de Quilt o Fabric suele ser buena opción para iniciar, casi siempre necesitarás indagar más por aquí y por allá para poder plasmar tus ideas, todo depende de cuanto esfuerzo le pongas al buscar, la información está ahí fuera.
-Aprende algo de ingles: [Ingles básico - INGLÉS CON EL TEACHER BOCARANDO](https://youtu.be/GWS3PCBFVgI)
+Aprende algo de ingles: [Ingles básico - INGLÉS CON EL TEACHER BOCARANDO](https://youtu.be/GWS3PCBFVgI) 
 
 # Establecer tu entorno de Desarrollo
 Primero necesitarás tener un JDK para Java 17 o posterior. Yo recomiendo descargar el de Temurin Adoptium JDK, ya que son de fácil acceso [Temurin Adoptium JDKs](https://adoptium.net/temurin/releases/)
@@ -23,20 +23,23 @@ Necesitarás también un IDE, [IntelliJ](https://www.jetbrains.com/idea/) es el 
 ## Descargar Plantilla de Mod
 Ahora toca descargar la plantilla [Mod-Plantilla.zip](https://github.com/QuiltMC/quilt-template-mod)
 Se descarga así:
+<br/>
 ![](https://github.com/LagBB/Lag-Zoom/blob/master/docs/imagenestutorial/descargarzip.png)
-
+<br/>
+<br/>
 Y extrae ese .zip en la carpeta que gustes.
 *podrías clonar el repositorio oficial de la plantilla, pero esta forma es más "amigable" para quienes no tengan mucho conocimiento. Les dejo este pequeño video para adentrarse más con [GIT - HolaMundo](https://youtu.be/VdGzPZ31ts8)*
 
 ## Creando el Proyecto en IntelliJ
+<br/>
 ![](https://github.com/LagBB/Lag-Zoom/blob/master/docs/imagenestutorial/crearproyectointellij.png)
 *si te aparece una ventana preguntando si confías en la carpeta, presiona que si confías*
-
+<br/>
 Hay un plugin que añade soporte adicional a la hora de hacer Mods para Minecraft, puedes descargarla aquí: [Plugin](https://plugins.jetbrains.com/plugin/8327-minecraft-development)
 
 Esto es lo que verás a grandes rasgos una vez abras tu proyecto, lo más importante y que veremos más adelante es el botón de Gradle (el elefantito)
 ![](https://github.com/LagBB/Lag-Zoom/blob/master/docs/imagenestutorial/ideagrandesrasgos.png)
-
+<br/>
 ## Configurando tu mod
 Primero debes ponerle un nombre a tu mod, el nuestro es **LagZoom** y basado en el nombre será tu **MOD ID**. El mod id debe estar compuesto por minúsculas y cualquier carácter especial o espacio debe ser reemplazado con un **_**. Además no debe existir otro mod con ese mod id, así que haz que sea único
 ***Ejemplo: Nombre: LagZoom Mod, MOD ID = lagzoom_mod***
@@ -49,7 +52,9 @@ Si no tienes un dominio, pero si una cuenta de GitHub, puedes usar **"io.github.
 Si no estás familiarizado con archivos JSON puedes aprender algo [aquí](https://developer.mozilla.org/es/docs/Learn/JavaScript/Objects/JSON)
 
 Primero configuraremos el archivo `gradle.properties`, ajusta los datos según lo que elegiste, en la siguiente imagen están los míos de ejemplo:
+<br/>
 ![](https://github.com/LagBB/Lag-Zoom/blob/master/docs/imagenestutorial/gradleproperties.png)
+<br/>
 *Nota: ya que Maven utiliza **-** para separar las palabras, si tu MOD ID consiste en palabras separadas, aquí debería ir con un **-** en vez de **_***.
 
 Ahora actualiza tú [quilt.mod.json](src/main/resources/quilt.mod.json) en `src/main/resources`. Aquí se definen cosas generales como el nombre de tu mod, el autor, la descripción, sitio web... pero también cosas enfocadas al desarrollo como las dependencias, la versión, el MOD ID y los MOD INITIALIZERS.
@@ -68,8 +73,9 @@ Hay varias cosas que actualizar aquí *(ver ejemplo completo al final)*:
 - `"mixin"` Aqui actualiza el **"example_mod"** a tu MOD ID, no olvides actualizar el archivo example_mod.mixins.json en la raiz de tu proyecto.
 
 Debería quedarte así, sin rastros de "example":
+<br/>
 ![](https://github.com/LagBB/Lag-Zoom/blob/master/docs/imagenestutorial/quiltmodjson.png)
-
+<br/>
 
 Elige una licencia para tu mod, si no sabes de licencias puedes leer esto: [Licencias](https://choosealicense.com/)
 *Nota: GPL-3.0 y AGPL-3.0 son incompatibles con Minecraft, no las uses.*
@@ -82,7 +88,10 @@ Tu código estará en `src/main/java/` con `src/main/java/com.tu_usuario.tu_mod`
 
 ## Generar Código fuente de Minecraft
 Para esto vamos al gradle (el elefantito a la derecha), desplegamos la carpeta "Tasks" y la carpeta "fabric" y luego ejecutamos con dobleclick "genSourcesWithVineflower"
+<br/>
 ![](https://github.com/LagBB/Lag-Zoom/blob/master/docs/imagenestutorial/gradlevineflower.png)
+<br/>
 
 y finalmente recargamos el gradle
+<br/>
 ![](https://github.com/LagBB/Lag-Zoom/blob/master/docs/imagenestutorial/gradlerecarga.png)

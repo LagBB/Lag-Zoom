@@ -1,7 +1,6 @@
 # LagZoom
 # Estructura
-Pueden elegir cualquier estructura que cumpla con alguna regla tipica de orden (io.github.lagbb), yo después de leer varios mods con el código publico llegué a esta estructura que se me hace la más comoda. `nombre_mod/common/mixin/utils` <br/>
-donde `common` contiene todo lo "normal", por decirlo así, respecto al código de Minecraft. Es decir, en nuestro caso, los comandos, el archivo principal y las keybinds(teclas) que creamos para el mod.
+Pueden elegir cualquier estructura que cumpla con alguna regla tipica de orden (io.github.lagbb), yo después de leer varios mods con el código publico llegué a esta estructura que se me hace la más comoda:<br/> `nombre_mod/common/mixin/utils` donde `common` contiene todo lo "normal", por decirlo así, respecto al código de Minecraft. Es decir, en nuestro caso, los comandos, el archivo principal y las keybinds(teclas) que creamos para el mod.
 
 En `mixin` estan los mixins que en esencia son utilidades que nos permiten injectar/sobreescribir con nuestro código, el código de Minecraft. <br/>
 Mencionar que cada mixin que crees debes añadirlo al [tu_mod.mixinx.json](https://github.com/LagBB/Lag-Zoom/blob/master/src/main/resources/lagzoom.mixins.json).

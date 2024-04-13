@@ -6,7 +6,7 @@
 		"version": "${version}",
 		"metadata": {
 			"name": "Lag Zoom",
-			"description": "A mod that adds a Simple but customizable and Beautiful Zoom",
+			"description": "A simple,customizable and beautiful Zoom for Quilt.",
 			"contributors": {
 				"LagBB": "Owner"
 			},

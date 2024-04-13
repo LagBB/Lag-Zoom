@@ -11,41 +11,7 @@ Puede que haya mejores formas, pero a la fecha no las sé (xd) y esto funciona c
 **LagZoomClient.java**
 Es nuestra clase principal, acá se cargará todo el código que hagamos. <br/>
 Como tal podríamos poner TODO nuestro código en este mismo archivo, pero es buena practica el ir separando nuestro código e ir llamandolo acá. Esto para tener un buen orden de código, hacerlo más entendible y poder modificarlo de manera más facil. 
-`package lagbb.lagzoom.common.client;
-
-import com.mojang.brigadier.CommandDispatcher;
-import lagbb.lagzoom.common.commands.LagZoomCommands;
-import lagbb.lagzoom.utils.SettingsManager;
-import net.fabricmc.fabric.api.client.keybinding.v1.KeyBindingHelper;
-import net.minecraft.command.CommandBuildContext;
-import net.minecraft.server.command.CommandManager;
-import net.minecraft.server.command.ServerCommandSource;
-import org.quiltmc.loader.api.ModContainer;
-import org.quiltmc.qsl.base.api.entrypoint.client.ClientModInitializer;
-import org.quiltmc.qsl.command.api.CommandRegistrationCallback;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-
-import static lagbb.lagzoom.common.keybinds.LagZoomKeyBinds.ZOOM_KEY;
-
-
-public class LagZoomClient implements ClientModInitializer {
-
-	// This logger is used to write text to the console and the log file.
-	// It is considered best practice to use your mod name as the logger's name.
-	// That way, it's clear which mod wrote info, warnings, and errors.
-	public static final Logger LOGGER = LoggerFactory.getLogger("LagZoom Mod");
-
-	public static boolean cinematicCameraEnabled;
-	public static boolean zoomLevelAccordingToScrollEnabled;
-
-	public static int zoomLevel;
-	public static int zoomLevelDefault;
-
-	public static boolean isZooming(){
-		return ZOOM_KEY.isPressed();
-	}
-	@Override
+`	@Override
 	public void onInitializeClient(ModContainer mod) {
 		LOGGER.info("Hola, espero aprendas con este 'tutorial' :D", mod.metadata().name());
 
@@ -65,9 +31,7 @@ public class LagZoomClient implements ClientModInitializer {
 				LagZoomCommands.register(dispatcher);
 			}
 		});
-	}
-}
-`
+	}`
 
 Comentar que acá utilizamos el `ClientModInitializer` porque este mod es del lado del cliente y `ModContainer mod` es un parametro que contiene la metadad de tu mod, data escrita en **quilt.mod.json**.
 

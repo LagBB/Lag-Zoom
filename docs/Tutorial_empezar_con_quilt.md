@@ -96,6 +96,9 @@ Para esto vamos al gradle (el elefantito a la derecha), desplegamos la carpeta "
 ![](https://github.com/LagBB/Lag-Zoom/blob/master/docs/imagenestutorial/gradlevineflower.png)
 <br/>
 
-y finalmente recargamos el gradle
+recargamos el gradle
 <br/>
 ![](https://github.com/LagBB/Lag-Zoom/blob/master/docs/imagenestutorial/gradlerecarga.png)
+
+y finalmente, deberías poder correr la task de runClient y si todo anda bien, Minecraft se abriría
+![](https://github.com/LagBB/Lag-Zoom/blob/master/docs/imagenestutorial/runclient.png)

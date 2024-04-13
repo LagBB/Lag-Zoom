@@ -43,7 +43,9 @@ Esto es lo que verás a grandes rasgos una vez abras tu proyecto, lo más import
 <br/>
 ## Configurando tu mod
 Primero debes ponerle un nombre a tu mod, el nuestro es **LagZoom** y basado en el nombre será tu **MOD ID**. El mod id debe estar compuesto por minúsculas y cualquier carácter especial o espacio debe ser reemplazado con un **"_" (guión bajo)**. Además no debe existir otro mod con ese mod id, así que haz que sea único
-***Ejemplo: Nombre: LagZoom Mod, MOD ID = lagzoom_mod***
+***Ejemplo: 
+Nombre: LagZoom Mod, 
+MOD ID = lagzoom_mod***
 
 También debes elegir un **MAVEN GROUP** que sirve para identificar el desarrollador de un mod. Suele ser el nombre de un dominio que poseas, pero al revés, por ejemplo si eres dueño de **"lagzoom.tutorial.com"** tu maven group será **"com.tutorial.lagzoom"**
 Si no tienes un dominio, pero si una cuenta de GitHub, puedes usar **"io.github.tu_username_de_github"**, si tiene caracteres especiales también debes reemplazarlos con **"_"**

@@ -82,7 +82,7 @@ Debería quedarte así, sin rastros de "example":
 
 Elige una licencia para tu mod, si no sabes de licencias puedes leer esto: [Licencias](https://choosealicense.com/)<br/>
 *Nota: GPL-3.0 y AGPL-3.0 son incompatibles con Minecraft, no las uses.*<br/>
-Esta es la de este mod: [LagZoom Licencia](LICENSE.md)
+Esta es la de este mod: [LagZoom Licencia](https://github.com/LagBB/Lag-Zoom/blob/master/LICENSE.md)
 
 ## Estructura del Proyecto
 La estructura del proyecto es simple, la raíz de tu proyecto contiene más que todo soporte proporcionado por gradle.

@@ -80,8 +80,8 @@ Debería quedarte así, sin rastros de "example":
 ![](https://github.com/LagBB/Lag-Zoom/blob/master/docs/imagenestutorial/quiltmodjson.png)
 <br/>
 
-Elige una licencia para tu mod, si no sabes de licencias puedes leer esto: [Licencias](https://choosealicense.com/)
-*Nota: GPL-3.0 y AGPL-3.0 son incompatibles con Minecraft, no las uses.*
+Elige una licencia para tu mod, si no sabes de licencias puedes leer esto: [Licencias](https://choosealicense.com/)<br/>
+*Nota: GPL-3.0 y AGPL-3.0 son incompatibles con Minecraft, no las uses.*<br/>
 Esta es la de este mod: [LagZoom Licencia](LICENSE.md)
 
 ## Estructura del Proyecto

@@ -40,7 +40,7 @@ public class LagZoomClient implements ClientModInitializer {
 		SettingsManager.loadSettings();
 
 		// Establece zoomLevel igual a zoomLevelDefault después de cargar los ajustes
-		LagZoomClient.zoomLevel = LagZoomClient.zoomLevelDefault;
+		zoomLevel = zoomLevelDefault;
 
 		KeyBindingHelper.registerKeyBinding(ZOOM_KEY);
 

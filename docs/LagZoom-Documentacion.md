@@ -52,7 +52,7 @@ Comentar que acá utilizamos el `ClientModInitializer` porque este mod es del la
 Aqui tenemos varias cosas, el `LOGGER` nos permite escribir mensajes en la terminal, en este caso pues un simple "Hola" por ser un tutorial :D.
 
 Llamamos también al metodo `loadsettings()` de `SettingsManager` que es el encargado de cargar los valores según lo que el usuario vaya eligiendo con los comandos. <br/>
-luego hacemos que `zoomLevel` sea igual al `zoomLevelDefault` pues ya se cargaron los valores desde el settings.json que graba `savesettings()` de `SettingsManager`.
+luego hacemos que `zoomLevel` sea igual al `zoomLevelDefault` que es el campo guardado en settings.json grabado por el metodo `savesettings()` de `SettingsManager`.
 
 `KeyBindingHelper.registerKeyBinding(ZOOM_KEY);` es el encargado de registrar nuestra tecla (creada en otro archivo), este helper de fabric lo que hace es registrar al completo tu tecla, es decir, ponerla en el menu de "Opciones > controles > teclas..." <br/>
 

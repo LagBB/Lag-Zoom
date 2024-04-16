@@ -12,7 +12,7 @@ Ver [Youtube-LagBB](agregar link al video aqui) para un showcase del mod.
 No soy ningún experto creando mods y mucho menos en Quilt. Tomando en cuenta que es una *Bifurcación* de Fabric, y al no estar completa la documentación
 en la Wiki de Quilt, seguro que mezcle unas cosas y no utilice otras que Quilt proporciona para hacer la vida más facil PERO, funciona, sirve y soy feliz.
 
-(insertar link a la documentación para aprender del mod, aqui)
+[tutorial para empezar a hacer tu primer mod con Quilt](https://github.com/LagBB/Lag-Zoom/blob/master/docs/Tutorial_empezar_con_quilt.md)
 
 # Como Usarlo
 ## Como Instalarlo

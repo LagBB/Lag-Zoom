@@ -11,9 +11,8 @@
 				"LagBB": "Owner"
 			},
 			"contact": {
-				"homepage": "https://example.com/",
-				"issues": "https://github.com/QuiltMC/quilt-template-mod/issues",
-				"sources": "https://github.com/QuiltMC/quilt-template-mod"
+				"homepage": "https://www.youtube.com/@lagbb",
+				"issues": "https://github.com/LagBB/Lag-Zoom/issues"
 			},
 			"icon": "assets/lagzoom/icon.png"
 		},
